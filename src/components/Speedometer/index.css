@@ -1,0 +1,139 @@
+/* Write your CSS here */
+
+body {
+  margin: 0px;
+}
+
+.main-container {
+  background-color: #07080c;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 48px;
+  color: #ffffff;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.image {
+  width: 800px;
+}
+
+.meter {
+  font-family: 'Roboto';
+  font-size: 36px;
+  color: #ffffff;
+  font-weight: 400;
+}
+
+.description {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #cbd5e1;
+}
+
+.button-container {
+  margin: 20px;
+}
+
+.accelerate-button {
+  background-color: #0b69ff;
+  color: #ffffff;
+  font-size: 14px;
+  cursor: pointer;
+  outline: none;
+  padding: 10px 15px 10px 15px;
+  border: none;
+  border-radius: 6px;
+  margin: 15px;
+}
+
+.brake-button {
+  background-color: transparent;
+  color: #94a3b8;
+  font-size: 14px;
+  cursor: pointer;
+  padding: 10px 15px 10px 15px;
+  border: 2px solid #94a3b8;
+  border-radius: 6px;
+  margin: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .heading {
+    font-size: 18px;
+  }
+
+  .image {
+    width: 400px;
+  }
+
+  .meter {
+    font-size: 12px;
+  }
+
+  .description {
+    font-size: 10px;
+  }
+
+  .button-container {
+    margin: 10px;
+  }
+
+  .accelerate-button {
+    font-size: 6px;
+    padding: 5px 8px 5px 8px;
+    border-radius: 2px;
+    margin: 7px;
+  }
+
+  .brake-button {
+    font-size: 6px;
+    padding: 5px 8px 5px 8px;
+    border-radius: 2px;
+    margin: 7px;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .heading {
+    font-size: 48px;
+  }
+
+  .image {
+    width: 800px;
+  }
+
+  .meter {
+    font-size: 36px;
+  }
+
+  .description {
+    font-size: 18px;
+  }
+
+  .button-container {
+    margin: 20px;
+  }
+
+  .accelerate-button {
+    font-size: 14px;
+    padding: 10px 15px 10px 15px;
+    border-radius: 6px;
+    margin: 15px;
+  }
+
+  .brake-button {
+    font-size: 14px;
+    padding: 10px 15px 10px 15px;
+    border-radius: 6px;
+    margin: 15px;
+  }
+}

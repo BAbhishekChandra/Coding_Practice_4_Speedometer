@@ -1,0 +1,12 @@
+ accelerateSpeed = () => {
+    const {speed} = this.state
+    if (speed < 200) {
+      this.setState(prevState => {
+        console.log(`Accelerated Speed Value: ${prevState.speed}`)
+        return {
+          speed: prevState.speed + 10,
+        }
+      })
+    }
+  }
+ 
